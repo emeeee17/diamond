@@ -127,22 +127,22 @@
 		{
 			"mimeType":"image/png",
 			"name":"BaseColor",
-			"uri":"BaseColor.png"
+			"uri":"textures/yy/BaseColor.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Metalic",
-			"uri":"Metalic.png"
+			"uri":"textures/yy/Metalic.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"BaseColorDiamond-AlphaDiamond",
-			"uri":"BaseColorDiamond-AlphaDiamond.png"
+			"uri":"textures/yy/BaseColorDiamond-AlphaDiamond.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"MetalicDiamond-RoughnessDiamond",
-			"uri":"MetalicDiamond-RoughnessDiamond.png"
+			"uri":"textures/yy/MetalicDiamond-RoughnessDiamond.png"
 		}
 	],
 	"accessors":[
