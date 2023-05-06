@@ -133,27 +133,27 @@
 		{
 			"mimeType":"image/png",
 			"name":"Normal",
-			"uri":textures/yy/"Normal.png"
+			"uri":"textures/yy/Normal.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"BaseColor",
-			"uri":textures/yy/"BaseColor.png"
+			"uri":"textures/yy/BaseColor.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"Metalic-Roughness",
-			"uri":textures/yy/"Metalic-Roughness.png"
+			"uri":"textures/yy/Metalic-Roughness.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"BaseColorDiamond-AlphaDiamond",
-			"uri":textures/yy/"BaseColorDiamond-AlphaDiamond.png"
+			"uri":"textures/yy/BaseColorDiamond-AlphaDiamond.png"
 		},
 		{
 			"mimeType":"image/png",
 			"name":"MetalicDiamond-RoughnessDiamond",
-			"uri":textures/yy/"MetalicDiamond-RoughnessDiamond.png"
+			"uri":"textures/yy/MetalicDiamond-RoughnessDiamond.png"
 		}
 	],
 	"accessors":[
