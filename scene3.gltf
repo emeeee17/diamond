@@ -56,13 +56,12 @@
 				"index":1
 			},
 			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					1,
-					1,
-					1,
-					0.5
-				],
-				"roughnessFactor":0
+				"baseColorTexture":{
+					"index":2
+				},
+				"metallicRoughnessTexture":{
+					"index":3
+				}
 			}
 		}
 	],
@@ -90,6 +89,14 @@
 		{
 			"sampler":0,
 			"source":1
+		},
+		{
+			"sampler":0,
+			"source":2
+		},
+		{
+			"sampler":0,
+			"source":3
 		}
 	],
 	"images":[
@@ -102,6 +109,16 @@
 			"mimeType":"image/png",
 			"name":"Diamond_Normal_Bake",
 			"uri":"textures/z/Diamond_Normal_Bake.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"BaseColorDiamond-AlphaDiamond",
+			"uri":"textures/z/BaseColorDiamond-AlphaDiamond.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"MetalicDiamond-RoughnessDiamond",
+			"uri":"textures/z/MetalicDiamond-RoughnessDiamond.png"
 		}
 	],
 	"accessors":[
