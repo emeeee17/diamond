@@ -19,7 +19,7 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"pCone1.001",
+			"name":"perfectDiamondRing",
 			"rotation":[
 				0.7071068286895752,
 				0,
@@ -30,16 +30,7 @@
 	],
 	"materials":[
 		{
-			"alphaMode":"BLEND",
 			"doubleSided":true,
-			"emissiveFactor":[
-				0.5,
-				0.5,
-				0.5
-			],
-			"emissiveTexture":{
-				"index":0
-			},
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularColorFactor":[
@@ -52,20 +43,37 @@
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Diamond_Export1",
+			"name":"Material_1",
+			"pbrMetallicRoughness":{
+				"roughnessFactor":0.025687936693429947
+			}
+		},
+		{
+			"doubleSided":true,
+			"extensions":{
+				"KHR_materials_specular":{
+					"specularColorFactor":[
+						2.371357614441398,
+						2.371357614441398,
+						2.371357614441398
+					]
+				},
+				"KHR_materials_ior":{
+					"ior":1.4500000476837158
+				}
+			},
+			"name":"Diamond",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
-					"index":1
+					"index":0
 				},
-				"metallicRoughnessTexture":{
-					"index":2
-				}
+				"roughnessFactor":0
 			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"pCone1.003",
+			"name":"perfectDiamondRing",
 			"primitives":[
 				{
 					"attributes":{
@@ -75,6 +83,15 @@
 					},
 					"indices":3,
 					"material":0
+				},
+				{
+					"attributes":{
+						"POSITION":4,
+						"TEXCOORD_0":5,
+						"NORMAL":6
+					},
+					"indices":7,
+					"material":1
 				}
 			]
 		}
@@ -83,92 +100,132 @@
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":2
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"DiamondEmissiveBake",
-			"uri":"textures/z/DiamondEmissiveBake.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"BaseColorDiamond-AlphaDiamond",
-			"uri":"textures/z/BaseColorDiamond-AlphaDiamond.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"MetalicDiamond-RoughnessDiamond",
-			"uri":"textures/z/MetalicDiamond-RoughnessDiamond.png"
+			"name":"DiamondRingColor1",
+			"uri":"textures/z/DiamondRingColor1.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":510,
+			"count":22590,
 			"max":[
-				1,
-				1,
-				0.6169670224189758
+				8.75883674621582,
+				2.8852930068969727,
+				8.505000114440918
 			],
 			"min":[
-				-1,
-				-1,
-				-0.6169670224189758
+				-8.758687973022461,
+				-2.5851354598999023,
+				-11.9173002243042
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":510,
+			"count":22590,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":510,
+			"count":22590,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":714,
+			"count":84006,
+			"type":"SCALAR"
+		},
+		{
+			"bufferView":4,
+			"componentType":5126,
+			"count":51153,
+			"max":[
+				7.68798828125,
+				2.650233745574951,
+				-4.068044662475586
+			],
+			"min":[
+				-7.687970161437988,
+				-2.349766254425049,
+				-11.916299819946289
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":5,
+			"componentType":5126,
+			"count":51153,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":6,
+			"componentType":5126,
+			"count":51153,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":7,
+			"componentType":5123,
+			"count":162414,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":6120,
+			"byteLength":271080,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":4080,
-			"byteOffset":6120,
+			"byteLength":180720,
+			"byteOffset":271080,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":6120,
-			"byteOffset":10200,
+			"byteLength":271080,
+			"byteOffset":451800,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1428,
-			"byteOffset":16320,
+			"byteLength":168012,
+			"byteOffset":722880,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":613836,
+			"byteOffset":890892,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":409224,
+			"byteOffset":1504728,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":613836,
+			"byteOffset":1913952,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":324828,
+			"byteOffset":2527788,
 			"target":34963
 		}
 	],
@@ -180,7 +237,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":17748,
+			"byteLength":2852616,
 			"uri":"scene3.bin"
 		}
 	]
