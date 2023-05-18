@@ -46,9 +46,9 @@
 			"name":"Material_1",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.07951031625270844,
-					0.07233206182718277,
-					0.07468489557504654,
+					0.4074167013168335,
+					0.36753466725349426,
+					0.3805844783782959,
 					1
 				],
 				"roughnessFactor":0
@@ -85,9 +85,6 @@
 					1,
 					0.6000000238418579
 				],
-				"baseColorTexture":{
-					"index":1
-				},
 				"roughnessFactor":0.08256882429122925
 			}
 		}
@@ -121,18 +118,9 @@
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
 		}
 	],
 	"images":[
-		{
-			"mimeType":"image/png",
-			"name":"EmissionDiamond",
-			"uri":"textures/z/EmissionDiamond.png"
-		},
 		{
 			"mimeType":"image/png",
 			"name":"BaseColorDiamond",
