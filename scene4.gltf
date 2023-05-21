@@ -43,9 +43,9 @@
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Base",
+			"name":"Base2",
 			"pbrMetallicRoughness":{
-				"roughnessFactor":0.025687936693429947
+				"roughnessFactor":0.17499999701976776
 			}
 		},
 		{
@@ -71,7 +71,7 @@
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Diamond.001",
+			"name":"Diamond2",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					1,
