@@ -19,7 +19,7 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"TRY2OBJ",
+			"name":"perfectDiamondRing",
 			"rotation":[
 				0.7071068286895752,
 				0,
@@ -34,23 +34,18 @@
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularColorFactor":[
-						0,
-						0,
-						0
+						2.371357614441398,
+						2.371357614441398,
+						2.371357614441398
 					]
 				},
 				"KHR_materials_ior":{
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Material_1",
+			"name":"Base",
 			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":0
-				},
-				"metallicRoughnessTexture":{
-					"index":1
-				}
+				"roughnessFactor":0.025687936693429947
 			}
 		},
 		{
@@ -62,34 +57,38 @@
 				1
 			],
 			"emissiveTexture":{
-				"index":2
+				"index":0
 			},
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularColorFactor":[
-						0,
-						0,
-						0
+						2.371357614441398,
+						2.371357614441398,
+						2.371357614441398
 					]
 				},
 				"KHR_materials_ior":{
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Material_2",
+			"name":"Diamond.001",
 			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					1,
+					1,
+					1,
+					0.699999988079071
+				],
 				"baseColorTexture":{
-					"index":3
+					"index":1
 				},
-				"metallicRoughnessTexture":{
-					"index":4
-				}
+				"roughnessFactor":0
 			}
 		}
 	],
 	"meshes":[
 		{
-			"name":"TRY2OBJ",
+			"name":"perfectDiamondRing",
 			"primitives":[
 				{
 					"attributes":{
@@ -119,165 +118,133 @@
 		},
 		{
 			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":2
-		},
-		{
-			"sampler":0,
-			"source":3
-		},
-		{
-			"sampler":0,
-			"source":4
+			"source":0
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"BaseColor",
-			"uri":"textures/yy/BaseColor.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"Metalic-Roughness",
-			"uri":"textures/yy/Metalic-Roughness.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"EmissionDiamond",
-			"uri":"textures/yy/EmissionDiamond.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"BaseColorDiamond-AlphaDiamond",
-			"uri":"textures/yy/BaseColorDiamond-AlphaDiamond.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"MetalicDiamond-RoughnessDiamond",
-			"uri":"textures/yy/MetalicDiamond-RoughnessDiamond.png"
+			"name":"DiamondRingColor2",
+			"uri":"textures/z/DiamondRingColor2.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":1511,
+			"count":22590,
 			"max":[
-				10.087409019470215,
-				1.250074028968811,
-				9.850000381469727
+				8.75883674621582,
+				2.8852930068969727,
+				8.505000114440918
 			],
 			"min":[
-				-10.087409019470215,
-				-1.250074028968811,
-				-13.258563995361328
+				-8.758687973022461,
+				-2.5851354598999023,
+				-11.9173002243042
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1511,
+			"count":22590,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":1511,
+			"count":22590,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":5808,
+			"count":84006,
 			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":865,
+			"count":51153,
 			"max":[
-				2.5999999046325684,
-				2.5999999046325684,
-				-11.394200325012207
+				7.68798828125,
+				2.650233745574951,
+				-4.068044662475586
 			],
 			"min":[
-				-2.5999999046325684,
-				-2.5999999046325684,
-				-14.514200210571289
+				-7.687970161437988,
+				-2.349766254425049,
+				-11.916299819946289
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":865,
+			"count":51153,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":865,
+			"count":51153,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":7,
 			"componentType":5123,
-			"count":1296,
+			"count":162414,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":18132,
+			"byteLength":271080,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":12088,
-			"byteOffset":18132,
+			"byteLength":180720,
+			"byteOffset":271080,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":18132,
-			"byteOffset":30220,
+			"byteLength":271080,
+			"byteOffset":451800,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":11616,
-			"byteOffset":48352,
+			"byteLength":168012,
+			"byteOffset":722880,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteLength":10380,
-			"byteOffset":59968,
+			"byteLength":613836,
+			"byteOffset":890892,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":6920,
-			"byteOffset":70348,
+			"byteLength":409224,
+			"byteOffset":1504728,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":10380,
-			"byteOffset":77268,
+			"byteLength":613836,
+			"byteOffset":1913952,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2592,
-			"byteOffset":87648,
+			"byteLength":324828,
+			"byteOffset":2527788,
 			"target":34963
 		}
 	],
@@ -289,7 +256,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":90240,
+			"byteLength":2852616,
 			"uri":"scene4.bin"
 		}
 	]
