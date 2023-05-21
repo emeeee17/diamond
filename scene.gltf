@@ -44,12 +44,12 @@
 					]
 				}
 			},
-			"name":"material1",
+			"name":"Copper",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					1,
-					0.5784823298454285,
-					0.6519553661346436,
+					0.6489057540893555,
+					0.22941002249717712,
+					0.04282904788851738,
 					1
 				],
 				"roughnessFactor":0
