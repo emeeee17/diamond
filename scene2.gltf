@@ -71,14 +71,17 @@
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Diamond",
+			"name":"Diamond.001",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.800000011920929,
-					0.800000011920929,
-					0.800000011920929,
+					1,
+					1,
+					1,
 					0.699999988079071
 				],
+				"baseColorTexture":{
+					"index":1
+				},
 				"roughnessFactor":0
 			}
 		}
@@ -109,6 +112,10 @@
 		}
 	],
 	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		},
 		{
 			"sampler":0,
 			"source":0
