@@ -57,12 +57,6 @@
 		{
 			"alphaMode":"BLEND",
 			"doubleSided":true,
-			"name":"Diamond",
-			"pbrMetallicRoughness":{}
-		},
-		{
-			"alphaMode":"BLEND",
-			"doubleSided":true,
 			"emissiveFactor":[
 				1,
 				1,
@@ -83,14 +77,54 @@
 					"ior":1.4500000476837158
 				}
 			},
+			"name":"Diamond",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					1,
+					1,
+					1,
+					0.699999988079071
+				],
+				"baseColorTexture":{
+					"index":1
+				},
+				"roughnessFactor":0
+			}
+		},
+		{
+			"alphaMode":"BLEND",
+			"doubleSided":true,
+			"emissiveFactor":[
+				1,
+				1,
+				1
+			],
+			"emissiveTexture":{
+				"index":2
+			},
+			"extensions":{
+				"KHR_materials_specular":{
+					"specularColorFactor":[
+						2.371357614441398,
+						2.371357614441398,
+						2.371357614441398
+					]
+				},
+				"KHR_materials_ior":{
+					"ior":1.4500000476837158
+				}
+			},
 			"name":"Diamond_Giant",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.800000011920929,
-					0.800000011920929,
-					0.800000011920929,
+					1,
+					1,
+					1,
 					0.699999988079071
 				],
+				"baseColorTexture":{
+					"index":3
+				},
 				"roughnessFactor":0
 			}
 		}
@@ -133,6 +167,18 @@
 		{
 			"sampler":0,
 			"source":0
+		},
+		{
+			"sampler":0,
+			"source":0
+		},
+		{
+			"sampler":0,
+			"source":1
+		},
+		{
+			"sampler":0,
+			"source":1
 		}
 	],
 	"images":[
@@ -140,6 +186,11 @@
 			"mimeType":"image/png",
 			"name":"DiamondRingColor2",
 			"uri":"textures/z/DiamondRingColor2.png"
+		},
+		{
+			"mimeType":"image/png",
+			"name":"DiamondRingColor3",
+			"uri":"textures/z/DiamondRingColor3.png"
 		}
 	],
 	"accessors":[
