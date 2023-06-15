@@ -51,6 +51,14 @@
 		{
 			"alphaMode":"BLEND",
 			"doubleSided":true,
+			"emissiveFactor":[
+				1,
+				1,
+				1
+			],
+			"emissiveTexture":{
+				"index":0
+			},
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularColorFactor":[
@@ -72,7 +80,7 @@
 					0.699999988079071
 				],
 				"baseColorTexture":{
-					"index":0
+					"index":1
 				},
 				"roughnessFactor":0
 			}
@@ -104,6 +112,10 @@
 		}
 	],
 	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		},
 		{
 			"sampler":0,
 			"source":0
