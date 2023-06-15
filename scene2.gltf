@@ -19,7 +19,7 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"perfectDiamondRing",
+			"name":"TRY2OBJ",
 			"rotation":[
 				0.7071068286895752,
 				0,
@@ -43,28 +43,14 @@
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Base2",
+			"name":"Base",
 			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.6892281174659729,
-					0.6892281174659729,
-					0.6892281174659729,
-					1
-				],
-				"roughnessFactor":0.30000001192092896
+				"roughnessFactor":0.025687936693429947
 			}
 		},
 		{
 			"alphaMode":"BLEND",
 			"doubleSided":true,
-			"emissiveFactor":[
-				1,
-				1,
-				1
-			],
-			"emissiveTexture":{
-				"index":0
-			},
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularColorFactor":[
@@ -77,7 +63,7 @@
 					"ior":1.4500000476837158
 				}
 			},
-			"name":"Diamond",
+			"name":"Diamond_Try2OBJ",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					1,
@@ -86,44 +72,7 @@
 					0.699999988079071
 				],
 				"baseColorTexture":{
-					"index":1
-				},
-				"roughnessFactor":0
-			}
-		},
-		{
-			"alphaMode":"BLEND",
-			"doubleSided":true,
-			"emissiveFactor":[
-				1,
-				1,
-				1
-			],
-			"emissiveTexture":{
-				"index":2
-			},
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularColorFactor":[
-						2.371357614441398,
-						2.371357614441398,
-						2.371357614441398
-					]
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
-				}
-			},
-			"name":"Diamond_Giant",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					1,
-					1,
-					1,
-					0.699999988079071
-				],
-				"baseColorTexture":{
-					"index":3
+					"index":0
 				},
 				"roughnessFactor":0
 			}
@@ -131,7 +80,7 @@
 	],
 	"meshes":[
 		{
-			"name":"perfectDiamondRing",
+			"name":"TRY2OBJ",
 			"primitives":[
 				{
 					"attributes":{
@@ -150,15 +99,6 @@
 					},
 					"indices":7,
 					"material":1
-				},
-				{
-					"attributes":{
-						"POSITION":8,
-						"TEXCOORD_0":9,
-						"NORMAL":10
-					},
-					"indices":11,
-					"material":2
 				}
 			]
 		}
@@ -167,131 +107,80 @@
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":1
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"DiamondRingColor2",
-			"uri":"textures/z/DiamondRingColor2.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"DiamondRingColor3",
-			"uri":"textures/z/DiamondRingColor3.png"
+			"name":"Diamond_Try2OBJ",
+			"uri":"textures/z/Diamond_Try2OBJ.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":22590,
+			"count":2407,
 			"max":[
-				8.75883674621582,
-				2.8852930068969727,
-				8.505000114440918
+				10.087409019470215,
+				1.250074028968811,
+				9.850000381469727
 			],
 			"min":[
-				-8.758687973022461,
-				-2.5851354598999023,
-				-11.9173002243042
+				-10.087409019470215,
+				-1.250074028968811,
+				-13.258563995361328
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":22590,
+			"count":2407,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":22590,
+			"count":2407,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":84006,
+			"count":7236,
 			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":50279,
+			"count":874,
 			"max":[
-				7.68798828125,
-				2.0737953186035156,
-				-4.068044662475586
+				2.5999999046325684,
+				2.5999999046325684,
+				-11.394200325012207
 			],
 			"min":[
-				-7.687970161437988,
-				-1.7736202478408813,
-				-9.549726486206055
+				-2.5999999046325684,
+				-2.5999999046325684,
+				-14.514200210571289
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":50279,
+			"count":874,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":50279,
+			"count":874,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":7,
-			"componentType":5123,
-			"count":161118,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":8,
-			"componentType":5126,
-			"count":874,
-			"max":[
-				2.5,
-				2.650233745574951,
-				-8.916299819946289
-			],
-			"min":[
-				-2.5,
-				-2.349766254425049,
-				-11.916299819946289
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":9,
-			"componentType":5126,
-			"count":874,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":10,
-			"componentType":5126,
-			"count":874,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":11,
 			"componentType":5123,
 			"count":1296,
 			"type":"SCALAR"
@@ -300,74 +189,50 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":271080,
+			"byteLength":28884,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":180720,
-			"byteOffset":271080,
+			"byteLength":19256,
+			"byteOffset":28884,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":271080,
-			"byteOffset":451800,
+			"byteLength":28884,
+			"byteOffset":48140,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":168012,
-			"byteOffset":722880,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":603348,
-			"byteOffset":890892,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":402232,
-			"byteOffset":1494240,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":603348,
-			"byteOffset":1896472,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":322236,
-			"byteOffset":2499820,
+			"byteLength":14472,
+			"byteOffset":77024,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":10488,
-			"byteOffset":2822056,
+			"byteOffset":91496,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":6992,
-			"byteOffset":2832544,
+			"byteOffset":101984,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":10488,
-			"byteOffset":2839536,
+			"byteOffset":108976,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2592,
-			"byteOffset":2850024,
+			"byteOffset":119464,
 			"target":34963
 		}
 	],
@@ -379,7 +244,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":2852616,
+			"byteLength":122056,
 			"uri":"scene2.bin"
 		}
 	]
