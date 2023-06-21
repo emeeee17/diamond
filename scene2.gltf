@@ -124,8 +124,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"Diamond_Try2OBJ",
-			"uri":"textures/z/Diamond_Try2OBJ.png"
+			"name":"DiamondRingColor3",
+			"uri":"textures/z/DiamondRingColor3.png"
 		}
 	],
 	"accessors":[
